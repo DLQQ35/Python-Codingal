@@ -36,49 +36,49 @@ def game():
             if the_Board['7'] == the_Board['8'] == the_Board['9'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " 1Won ****")
                 break
             elif the_Board['4'] == the_Board['5'] == the_Board['6'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
             elif the_Board['1'] == the_Board['2'] == the_Board['3'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
             elif the_Board['7'] == the_Board['4'] == the_Board['1'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
             elif the_Board['8'] == the_Board['5'] == the_Board['2'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
             elif the_Board['9'] == the_Board['6'] == the_Board['3'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
             elif the_Board['1'] == the_Board['5'] == the_Board['9'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
             elif the_Board['3'] == the_Board['5'] == the_Board['7'] != ' ':
                 printBoard(the_Board)
                 print("\nGame Over.\n")
-                print(" ****" + turn + "Won ****")
+                print(" **** " + turn + " Won ****")
                 break
         if count == 9:
             print("\nGame Over.\n")
             print("It's a Tie!!")
 
         if turn == 'X':
-            turn == 'O'
+            turn = 'O'
         else:
             turn = 'X'
 
