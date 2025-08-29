@@ -10,4 +10,4 @@ class pair_elements:
 
 value = int(input("Enter the sum for which you want to make search:"))
 
-print("index1 = %d, index2 = %d" %pair_elements.twosum((10,20,30,40,50,60,70,80,90,100),value))
+print("index1 = %d, index2 = %d" %pair_elements().twosum((10,20,30,40,50,60,70,80,90,100),value))
