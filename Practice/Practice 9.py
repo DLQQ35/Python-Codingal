@@ -187,27 +187,27 @@ while True:
     elif d == "f100":
         t.fd(100)
     elif d == "b1":
-        t.bd(1)
+        t.back(1)
     elif d == "b10":
-        t.bd(10)
+        t.back(10)
     elif d == "b20":
-        t.bd(20)
+        t.back(20)
     elif d == "b30":
-        t.bd(30)
+        t.back(30)
     elif d == "b40":
-        t.bd(40)
+        t.back(40)
     elif d == "b50":
-        t.bd(50)
+        t.back(50)
     elif d == "b60":
-        t.bd(60)
+        t.back(60)
     elif d == "b70":
-        t.bd(70)
+        t.back(70)
     elif d == "b80":
-        t.bd(80)
+        t.back(80)
     elif d == "b90":
-        t.bd(90)
+        t.back(90)
     elif d == "b100":
-        t.bd(100)
+        t.back(100)
     elif d == "r45":
         t.rt(45)
     elif d == "r90":
@@ -224,3 +224,67 @@ while True:
         t.rt(315)
     elif d == "r360":
         t.rt(360)
+    elif d == "45":
+        t.lt(45)
+    elif d == "90":
+        t.lt(90)
+    elif d == "1135":
+        t.lt(135)
+    elif d == "180":
+        t.lt(180)
+    elif d == "225":
+        t.lt(225)
+    elif d == "270":
+        t.lt(270)
+    elif d == "315":
+        t.lt(315)
+    elif d == "360":
+        t.lt(360)
+    elif d == "c10":
+        t.circle(10)
+    elif d == "c20":
+        t.circle(20)
+    elif d == "c30":
+        t.circle(30)
+    elif d == "c40":
+        t.circle(40)
+    elif d == "c50":
+        t.circle(50)
+    elif d == "c60":
+        t.circle(60)
+    elif d == "c70":
+        t.circle(70)
+    elif d == "c80":
+        t.circle(80)
+    elif d == "c90":
+        t.circle(90)
+    elif d == "c100":
+        t.circle(100)
+    elif d == "sc10":
+        t.circle(10, 180)
+    elif d == "sc20":
+        t.circle(20, 180)
+    elif d == "sc30":
+        t.circle(30, 180)
+    elif d == "sc40":
+        t.circle(40, 180)
+    elif d == "sc50":
+        t.circle(50, 180)
+    elif d == "sc60":
+        t.circle(60, 180)
+    elif d == "sc70":
+        t.circle(70, 180)
+    elif d == "sc80":
+        t.circle(80, 180)
+    elif d == "sc90":
+        t.circle(90, 180)
+    elif d == "sc100":
+        t.circle(100, 180)
+    elif d == "pu":
+        t.penup()
+    elif d == "pd":
+        t.pendown()
+    elif d == "sf":
+        t.begin_fill()
+    elif d == "ef":
+        t.end_fill()
