@@ -6,9 +6,9 @@ SCREEN_WIDTH,SCREEN_HEIGHT = 500,500
 screen = p.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 p.display.set_caption("Adding Image and Background Image")
 
-bg_image = p.transform.scale(p.image.load(r"C:\Users\jiten\OneDrive\Desktop\Python Codingal\download (1).png").convert(),(SCREEN_WIDTH,SCREEN_HEIGHT))
+bg_image = p.transform.scale(p.image.load(r"C:\Users\jiten\OneDrive\Desktop\Python Codingal\Lesson 31\bgg.png").convert(),(SCREEN_WIDTH,SCREEN_HEIGHT))
 
-pg_image = p.transform.scale(p.image.load(r"C:\Users\jiten\OneDrive\Desktop\Python Codingal\PeNgUiN.png").convert_alpha(),(200,200))
+pg_image = p.transform.scale(p.image.load(r"C:\Users\jiten\OneDrive\Desktop\Python Codingal\Lesson 31\penguin.png").convert_alpha(),(200,200))
 
 pg_rect = pg_image.get_rect(center = (SCREEN_WIDTH//2,SCREEN_HEIGHT//2 - 30))
 
@@ -21,7 +21,7 @@ def game_loop():
     running = True
     while running:
         for event in p.event.get():
-            if event.type == p.QUIT():
+            if event.type == p.QUIT:
                 running = False
         screen.blit(bg_image,(0,0))
         screen.blit(pg_image,pg_rect)
