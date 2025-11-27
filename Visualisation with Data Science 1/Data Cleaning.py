@@ -1,0 +1,25 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv(r"c:\Users\jiten\OneDrive\Desktop\Python Codingal\Visualisation with Data Science 1\country_vaccinations.csv")
+
+print(df.head(10))
+
+df.isnull().any()
+
+subset = df.iloc[:5200, :]
+plt.figure(figsize=(12, 8))
+sns.heatmap(subset.isnull(),cbar=True,cmap="viridis")
+plt.show()
+
+print(df.dropna())
+
+print(df.dropna(how='all'))
+
+print(df.fillna(0))
+
+print(df.fillna(method='bfill'))
+
+print(df.interpolate())
